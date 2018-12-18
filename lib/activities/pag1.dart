@@ -5,7 +5,8 @@ class Pag1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      color: Color.fromRGBO(96, 125, 139, 1),
+      //TODO: Cambiar el color del appbar en las 3 paginas.
+      //color: Color.fromRGBO(96, 125, 139, 1),
       debugShowCheckedModeBanner: false,
       title: 'La Mezcladora',
       home: Scaffold(
