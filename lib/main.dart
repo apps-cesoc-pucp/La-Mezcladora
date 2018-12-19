@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
-import 'activities/pag3.dart';
+import 'activities/pag1.dart';
 
-void main() => runApp(Pag3());
+void main() => runApp(Pag1());

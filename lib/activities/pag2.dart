@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../aux/mybutton.dart';
+import 'pag3.dart';
 class Pag2 extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -31,7 +32,7 @@ class Pag2 extends StatelessWidget {
               children:<Widget> [
                 Container(
                 
-                child: MyButton(name:'MORTERO',width: 200,height: 80),
+                child: MyButton(name:'MORTERO',width: 200,height: 80,pagina: Pag3()),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left:30),
