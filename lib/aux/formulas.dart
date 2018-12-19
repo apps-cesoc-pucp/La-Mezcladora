@@ -2,6 +2,7 @@
 
 /// Retorna las cantidades que se usaran en los materiales
 /// para el Mortero. Requiere de AREA (double)
+/// datos a obtener: ['cemento'] ['arena_gruesa'] ['arena_fina'] ['agua']
 Map<String, double> calculoMaterialesMortero(int eleccion, double area){
   final double FACTORCANTO  = 0.0118;
   final double FACTORSOGA   = 0.0148;
