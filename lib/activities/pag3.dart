@@ -67,7 +67,7 @@ class Pag3State extends State<Pag3>{
             ),
             ),
             Padding(
-              padding: EdgeInsets.only(top:270),
+              padding: EdgeInsets.only(top:170),//270
               child: MyButton(name:"LADRILLO KING KONG",width: 100,height: 80,pagina: Pag4()
                               
                               ),

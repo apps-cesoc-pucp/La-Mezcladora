@@ -35,7 +35,7 @@ class Pag2 extends StatelessWidget {
                 child: MyButton(name:'MORTERO',width: 200,height: 80,pagina: Pag3()),
                 ),
                 Padding(
-                  padding: EdgeInsets.only(left:30),
+                  padding: EdgeInsets.only(left:0),//30
                   child:Image.asset(
                   'resources/graphics/mortero.jpg',
                   
@@ -53,7 +53,7 @@ class Pag2 extends StatelessWidget {
                 child: MyButton(name:'CONCRETO',width: 200,height: 80),
                 ),
                 Padding(
-                  padding: EdgeInsets.only(left:30),
+                  padding: EdgeInsets.only(left:0),//30
                   child:Image.asset(
                   'resources/graphics/concreto.jpg',
                   width:  150,

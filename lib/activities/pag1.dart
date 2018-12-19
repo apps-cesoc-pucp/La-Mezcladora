@@ -21,18 +21,18 @@ class Pag1 extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 100.0, vertical:20.0),            
               child: Text(
                 'Bienvenido',              
-                style: TextStyle(fontSize: 40.0),
+                style: TextStyle(fontSize: 30.0), //40
                 ),
               ),
               
             Container(
-              padding: const EdgeInsets.only(top: 200.0),
+              padding: const EdgeInsets.only(top: 100.0), //200
               child: MyButton(name:'MAESTRO',width: 200,height: 100,pagina: Pag2()
                             ),
                 ),
                 
             Container(
-              padding: const EdgeInsets.only(top: 100.0),
+              padding: const EdgeInsets.only(top: 50.0), //100
               child: MyButton(name:'INGENIERO',width: 200,height: 100),
                ),
                
